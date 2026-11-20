@@ -1,0 +1,19 @@
+# Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Local input / competition data (obtain from Kaggle)
+data/
+input/
+train/
+test.csv
+*.parquet
+
+# Generated outputs
+submission*.csv
+catboost_info/
+*.cbm
